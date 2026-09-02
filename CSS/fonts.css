@@ -1,0 +1,16 @@
+@font-face {
+    font-family:"Mazzard M";
+    src: url("../fonts/MazzardM-Light.woff")format("woff");
+}
+@font-face {
+    font-family:"Mazzard M Regular";
+    src: url("../fonts/MazzardM-Regular.woff")format("woff");
+}
+@font-face {
+    font-family:"Mazzard M Bold";
+    src: url("../fonts/MazzardM-Bold.woff")format("woff");
+}
+@font-face {
+    font-family:"Mazzard M SemiBold";
+    src: url("../fonts/MazzardM-SemiBold.woff")format("woff");
+}

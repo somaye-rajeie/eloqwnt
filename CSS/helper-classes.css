@@ -1,0 +1,96 @@
+/* 
+Helper Classes
+*/
+.purple-color {
+    background-color: #E3E3FF;
+}
+
+.white-color {
+    color: #fff;
+}
+
+.green-color {
+    background-color: #E3F7FF;
+}
+
+.gray-bg-color {
+    background-color: #E5E9EB;
+}
+
+.black-bg-color {
+    background-color: #000;
+}
+.w-70-percent{
+    width:70%;
+}
+.w-90 {
+    width: 90rem;
+}
+
+.w-100 {
+    width: 110rem;
+}
+.max-width{
+    max-width: 11rem;
+}
+.max-width-50{
+    max-width: 50rem;
+}
+
+.margin-bottom-space {
+    margin-bottom: var(--eyebrow-space);
+}
+
+.margin-bottom-2 {
+    margin-bottom: 2rem;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5rem;
+}
+
+.align-self {
+    align-self: end;
+}
+
+.margin-left {
+    margin-left: 1.8rem;
+}
+
+.padding-left-right {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+}
+
+.margin-left-10 {
+    margin-left: 10rem;
+}
+
+.margin-left-22 {
+    margin-left: 22rem;
+}
+
+/* 
+Responsive
+*/
+@media screen and (max-width:768px) {
+    .margin-left-22 {
+        margin-left: 16rem;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .margin-left-22 {
+        margin-left: 14rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .margin-left-22 {
+        margin-left: 10rem;
+    }
+
+    .margin-left-10 {
+        margin-left: 6rem;
+    }
+}

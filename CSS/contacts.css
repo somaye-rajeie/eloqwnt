@@ -1,0 +1,340 @@
+@import "fonts.css";
+@import "reset.css";
+@import "grid.css";
+@import "default.css";
+@import "helper-classes.css";
+@import "component.css";
+@import "header-nav.css";
+@import "contact-us.css";
+@import "footer.css";
+@import "reveal-animation.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Mazzard M", sans-serif;
+  background-color: #E5E9EB;
+}
+
+/* 
+==============
+ Header Body
+==============
+*/
+.header-body {
+  margin-top: 15rem;
+  position: relative;
+}
+
+.header-body__banner {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  height: 12rem;
+}
+
+.header-body__banner-text {
+  font-size: 8rem;
+  line-height: 12rem;
+  font-weight: 600;
+}
+
+.header-body__banner-slides-container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.header-body__banner-slide {
+  font-size: 8rem;
+  line-height: 12rem;
+  font-weight: 600;
+}
+
+.header-body__text {
+  font-size: 2.3rem;
+  line-height: 2.7rem;
+  margin: 15rem 0 8rem 0;
+  text-align: center;
+}
+/* 
+===============
+ Schedule Call
+===============
+*/
+
+.schedule-call__title-text {
+  width: 80%;
+  font-size: 5.3rem;
+  line-height: 5.9rem;
+  font-weight: 600;
+  margin-top: 6rem;
+}
+
+.schedule-call__body {
+  border: 1px solid #E7E7E9;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 2rem;
+}
+
+.schedule-call__image-wrapper {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.schedule-call__image {
+  width: 100%;
+  height: 100%;
+}
+
+.schedule-call__body-title {
+  font-size: 2.3rem;
+  line-height: 2.3rem;
+  font-weight: 600;
+}
+
+.booking-intro {
+  border: 1px solid #E7E7E9;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 1rem;
+  margin: 2rem 0 4rem 0;
+}
+
+.booking-intro__info {
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.booking-intro__info-icon {
+  margin-right: 1rem;
+}
+
+.booking-content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.booking-content__title {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  grid-gap: 2rem;
+}
+.booking-content__input {
+  border: 1px solid #E7E7E9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 1rem;
+  outline: 0;
+  margin-bottom: 2rem;
+}
+
+.booking-content__input::placeholder {
+  color: #E5E9EB;
+}
+
+/* شخصی‌سازی Flatpickr */
+.flatpickr-calendar.inline {
+  width: 100%;
+  max-width: 450px;
+  box-shadow: none;
+  border: 0;
+}
+
+.flatpickr-months {
+  margin-bottom: 12px;
+}
+
+.flatpickr-weekdaycontainer {
+  font-size: 1.8rem;
+}
+
+.flatpickr-day {
+  border-radius: 50%;
+  color: #1f67a7;
+  font-size: 1.8rem;
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.selected:hover {
+  background: #2168d7;
+  border-color: #2168d7;
+  color: #fff;
+}
+
+.flatpickr-day.today {
+  border-color: #2168d7;
+}
+
+.flatpickr-day.disabled,
+.flatpickr-day.disabled:hover {
+  color: #c9cdd2;
+}
+
+.timezone-select-box-container {
+  margin-top: 2rem;
+}
+
+.timezone-select-box {
+  margin-top: 1rem;
+}
+
+.times-column {
+  margin-top: 10rem;
+}
+
+.times-column h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.time-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-height: 470px;
+  overflow-y: auto;
+  padding-right: 12px;
+}
+
+.time-slot {
+  min-height: 52px;
+  border: 1px solid #1965a5;
+  border-radius: 4px;
+  background: #fff;
+  color: #1965a5;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 180ms ease;
+}
+
+.time-slot:hover,
+.time-slot.selected {
+  background: #1965a5;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.selection-summary {
+  margin-top: 4rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* 
+Main
+*/
+.main {
+  margin-top: 4rem;
+}
+
+/* 
+Responsive
+*/
+
+@media screen and (max-width:1400px) {
+  .header-body__banner {
+    height: 10rem;
+  }
+
+  .header-body__banner-text {
+    font-size: 6rem;
+    line-height: 10rem;
+  }
+
+  .header-body__banner-slide {
+    font-size: 6rem;
+    line-height: 10rem;
+  }
+
+  .schedule-call__title-text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .header-body__banner {
+    height: 7rem;
+  }
+
+  .header-body__banner-text {
+    font-size: 3rem;
+    line-height: 7rem;
+  }
+
+  .header-body__banner-slide {
+    font-size: 3rem;
+    line-height: 7rem;
+  }
+
+  .booking-content {
+    grid-template-columns: 65% 35%;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .schedule-call__title-text {
+    font-size: 3.3rem;
+    line-height: 3.9rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+  .booking-content {
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .flatpickr-innerContainer {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:506px) {
+  .header-body__banner {
+    height: 6rem;
+  }
+
+  .header-body__banner-text {
+    font-size: 2rem;
+    line-height: 6rem;
+  }
+
+  .header-body__banner-slide {
+    font-size: 2rem;
+    line-height: 6rem;
+  }
+}
+
+@media screen and (max-width:330px) {
+  .header-body__banner {
+    height: 5rem;
+  }
+
+  .header-body__banner-text {
+    font-size: 1.6rem;
+    line-height: 5rem;
+  }
+
+  .header-body__banner-slide {
+    font-size: 1.6rem;
+    line-height: 5rem;
+  }
+}
